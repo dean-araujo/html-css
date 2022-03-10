@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+        /* Medidas Absolutas
+        cm, mm, in(polegada), px, pt, pc
+
+        Medidas relativas
+        em (relativa ao tamanho atual da fonte (M)), ex (rel. altura x), rem, Vw (rel. ao tamanho da viewport); vh (altura da viewport), %
+        */
+        /* A W3C recomenda apenas o uso de px e de em*/
+        /* 16px é o padrão do navegador. 16px é geralmente = 1em
+        
+        */
+
+        font-size: 1em;
+        font-weight: normal;
+        /* lighter, normal, bold, bolder (100-900)*/
+    }
+    
+    h1 {
+        /* Shorthand font
+        - font-style -> font-weight -> font-size -> font-family
+
+        font-family: 'Arial, sans-serfi;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; */
+
+        font: italic bolder 3em 'Arial', sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio impedit quia eius, illo voluptates cumque vero facere at. Iusto nemo aliquid debitis porro voluptates earum, voluptatum corporis reprehenderit ipsam expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quia tempora accusantium natus? Quae aspernatur labore at quos blanditiis, vero maxime, laudantium commodi cupiditate nulla esse, unde corporis. Nemo, illo. </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur perspiciatis laboriosam eaque dolor exercitationem error nemo accusantium amet provident dolorum et laudantium, doloribus, repudiandae quis? Totam nesciunt dignissimos nostrum quo.</p>
+
+    
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, maiores, ab totam cum at excepturi id vero possimus culpa iure nihil similique ipsa eum ipsum dicta libero nostrum magni debitis.</p>
+
+</body>
+
+
+</html>

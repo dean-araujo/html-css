@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        nav {
+            background-color:rgb(77, 77, 77);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.317);
+;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.342);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(107, 107, 107);
+        }
+
+        footer{
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        div#bola > p {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes, Política e Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea eius enim dolorem ipsa at sed nam et neque ad? Corporis est tempora enim iste cumque. Harum id sapiente culpa.</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quibusdam harum quam natus voluptates voluptas? Quidem, asperiores, voluptas inventore laudantium eveniet quasi assumenda cumque quia voluptatem nisi repellat dolorem rem.</p>
+                <aside>
+                    <p>Artigo Escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por DeanTarik</p>
+    </footer>
+    <div id="bola">
+        <p>Hello!</p>
+    </div>
+</body>
+</html>
